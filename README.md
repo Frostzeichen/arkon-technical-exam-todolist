@@ -24,3 +24,6 @@ Added features:
 6. Change the database details on the `.env` file to match your database's environment settings.
 7. Run `npm run dev` to run the Vue frontend development environment.
 8. Run `php artisan serve` to run the Laravel server.
+9. Go to `localhost:8000/` on your local machine's web browser to create an account. You may use a non-existing dummy email for the email field.
+10. Once logged in, click the "Todos" navigation link or head to `localhost:8000/todos` to make a todo list item.
+11. You may create a new todo item there. All todo items are set to "DOING" by default. You may change this for the todo item by clicking on its "DOING" button.
