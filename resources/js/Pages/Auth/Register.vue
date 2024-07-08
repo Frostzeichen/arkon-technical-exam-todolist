@@ -24,6 +24,8 @@ const submit = () => {
     <GuestLayout>
         <Head title="Register" />
 
+        <p>Instructions: You may use any valid-looking email. This doesn't send any confirmation message since it only saves the email to the database.</p>
+
         <form @submit.prevent="submit">
             <div>
                 <InputLabel for="name" value="Name" />
